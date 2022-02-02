@@ -1,1 +1,82 @@
-/*  */
+/* синий цвет #2196F3 */
+/* main background color #FFFFFF*/
+/* primary color text #757575 */
+/* secondary color text  #212121*/
+/* background hero #2F303A */
+/* Main color text */
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+/* global style dell points in ul */
+.list {
+  list-style: none;
+}
+.section-title {
+  color: #212121;
+}
+
+/* --------------------------------- */
+
+/* Logo */
+.logo {
+  color: #212121;
+}
+.logo:hover,
+.logo:focus {
+  color: #212121;
+}
+.logo .logo-blu:hover,
+.logo .logo-blu:focus {
+  color: #2196f3;
+}
+.logo .logo-blu {
+  color: #2196f3;
+}
+
+/* Nav */
+.site-nav-list .link {
+  color: #212121;
+}
+.site-nav-list .link:hover,
+.site-nav-list .link:focus {
+  color: #2196f3;
+}
+.contacts-list .link {
+  color: #757575;
+}
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: #2196f3;
+}
+
+/* section hero */
+.section-hero {
+  background-color: #2f303a;
+}
+.section-hero-title {
+  color: #ffffff;
+}
+
+/* section Our advantages*/
+.our-advantages .title {
+  color: #212121;
+}
+
+/* section our team */
+.footer {
+  background-color: #2f303a;
+}
+.footer .logo {
+  color: #ffffff;
+}
+.our-team .title {
+  color: #212121;
+}
+/* footer */
+.footer .addres {
+  color: #ffffff;
+}
+.footer .contacts-list {
+  color: rgba(255, 255, 255, 0.6);
+}
