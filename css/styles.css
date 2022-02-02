@@ -1,19 +1,23 @@
-/* синий цвет #2196F3 */
-/* main background color #FFFFFF*/
-/* primary color text #757575 */
-/* secondary color text  #212121*/
-/* background hero #2F303A */
-/* Main color text */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+}
+
+/* background hero and footer #2F303A */
+
 body {
   background-color: #ffffff;
-  color: #757575;
+  color: var(--primary-text-color);
 }
+
 /* global style dell points in ul */
 .list {
   list-style: none;
 }
+/* global style  */
 .section-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 /* --------------------------------- */
@@ -36,18 +40,21 @@ body {
 
 /* Nav */
 .site-nav-list .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .site-nav-list .link:hover,
 .site-nav-list .link:focus {
-  color: #2196f3;
+  color: var(--accent-text-color);
+}
+.site-nav-list .link.current {
+  color: var(--accent-text-color);
 }
 .contacts-list .link {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .contacts-list .link:hover,
 .contacts-list .link:focus {
-  color: #2196f3;
+  color: var(--accent-text-color);
 }
 
 /* section hero */
@@ -58,22 +65,31 @@ body {
   color: #ffffff;
 }
 
-/* section Our advantages*/
-.our-advantages .title {
-  color: #212121;
+/* buttons */
+.button {
+  color: var(--title-text-color);
+  background-color: #ffffff;
+}
+.button.primary {
+  color: #ffffff;
+  background-color: var(--accent-text-color);
+}
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+.button.current {
+  color: #ffffff;
+  background-color: var(--accent-text-color);
 }
 
-/* section our team */
+/* footer */
 .footer {
   background-color: #2f303a;
 }
 .footer .logo {
   color: #ffffff;
 }
-.our-team .title {
-  color: #212121;
-}
-/* footer */
 .footer .addres {
   color: #ffffff;
 }
