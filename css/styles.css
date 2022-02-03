@@ -7,6 +7,10 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  /* font-size: 14px; */
+  letter-spacing: 0.03em;
 }
 
 /* global style  */
@@ -17,10 +21,24 @@ body {
 /* title h2 */
 .section-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0.03em;
 }
 /* title h3 */
 .section-subtitle {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.03em;
 }
 
 /* --------------------------------- */
@@ -28,22 +46,50 @@ body {
 /* Logo */
 .logo {
   color: #212121;
+
+  text-decoration: none;
+
+  font-family: Oleo Script, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-align: left;
+  vertical-align: Top;
+  letter-spacing: 0.03em;
 }
 .logo:hover,
 .logo:focus {
   color: #212121;
 }
+.logo .logo-blu {
+  color: #2196f3;
+
+  text-decoration: none;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.38;
+  text-align: left;
+  vertical-align: Top;
+  letter-spacing: 0.03em;
+}
 .logo .logo-blu:hover,
 .logo .logo-blu:focus {
-  color: #2196f3;
-}
-.logo .logo-blu {
   color: #2196f3;
 }
 
 /* Nav */
 .site-nav-list .link {
   color: var(--title-text-color);
+  text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.02em;
 }
 .site-nav-list .link:hover,
 .site-nav-list .link:focus {
@@ -54,6 +100,14 @@ body {
 }
 .contacts-list .link {
   color: var(--primary-text-color);
+  text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.02em;
 }
 .contacts-list .link:hover,
 .contacts-list .link:focus {
@@ -66,12 +120,49 @@ body {
 }
 .section-hero-title {
   color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.93;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0.06em;
 }
 
 /* buttons */
 .button {
   color: var(--title-text-color);
   background-color: #ffffff;
+
+  /* font-family: inherit;
+  font-size: 700;
+  line-height: 1.88;
+  text-align: center;
+  vertical-align: center;
+  letter-spacing: 0.06em; */
+}
+
+.our-advantages .text {
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.03em;
+}
+.our-team .section-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 00.03em;
+}
+.our-team .text {
+  /* font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 00.03em; */
 }
 /* portfolio buttons*/
 .section-our-works .button:hover,
