@@ -16,7 +16,12 @@ body {
   list-style: none;
 }
 /* global style  */
+/* title h2 */
 .section-title {
+  color: var(--title-text-color);
+}
+/* title h3 */
+.section-subtitle {
   color: var(--title-text-color);
 }
 
@@ -70,6 +75,16 @@ body {
   color: var(--title-text-color);
   background-color: #ffffff;
 }
+/* portfolio buttons*/
+.section-our-works .button:hover,
+.section-our-works .button:focus {
+  color: #ffffff;
+  background-color: var(--accent-text-color);
+}
+.button.current {
+  color: #ffffff;
+  background-color: var(--accent-text-color);
+}
 .button.primary {
   color: #ffffff;
   background-color: var(--accent-text-color);
@@ -77,10 +92,6 @@ body {
 .button.secondary {
   color: var(--title-text-color);
   background-color: #f5f4fa;
-}
-.button.current {
-  color: #ffffff;
-  background-color: var(--accent-text-color);
 }
 
 /* footer */
