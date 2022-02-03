@@ -4,18 +4,16 @@
   --accent-text-color: #2196f3;
 }
 
-/* background hero and footer #2F303A */
-
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
 }
 
+/* global style  */
 /* global style dell points in ul */
 .list {
   list-style: none;
 }
-/* global style  */
 /* title h2 */
 .section-title {
   color: var(--title-text-color);
