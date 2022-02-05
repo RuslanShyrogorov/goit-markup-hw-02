@@ -152,6 +152,7 @@ body {
 .button.hero:focus {
   color: var(--bgc-primary-color);
   background-color: var(--hover-buttom-primary);
+  cursor: pointer;
 }
 .section-our-works .button {
   color: var(--title-text-color);
@@ -169,6 +170,7 @@ body {
 .section-our-works .button:focus {
   color: var(--bgc-primary-color);
   background-color: var(--accent-text-color);
+  cursor: pointer;
 }
 .section-our-works .button.current {
   color: var(--bgc-primary-color);
@@ -232,7 +234,7 @@ body {
 
   font-style: normal;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   text-align: left;
   vertical-align: top;
   letter-spacing: 00.03em;
