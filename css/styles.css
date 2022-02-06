@@ -84,7 +84,6 @@ body {
 
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   text-align: left;
   vertical-align: top;
@@ -102,7 +101,6 @@ body {
   text-decoration: none;
 
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   text-align: left;
   vertical-align: top;
@@ -175,7 +173,6 @@ body {
 
 /* Section Our advantages */
 .our-advantages .text {
-  /* font-size: 14px; */
   line-height: 1.71;
   text-align: left;
   vertical-align: top;
@@ -226,7 +223,6 @@ body {
   text-decoration: none;
 
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
   text-align: left;
   vertical-align: top;
